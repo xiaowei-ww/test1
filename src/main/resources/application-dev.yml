@@ -1,0 +1,15 @@
+server:
+  port: 3001
+
+eureka:
+  instance:
+    hostname: localhost
+#    实例的主机名称
+  client:
+    register-with-eureka: false
+#    是否启动注册服务
+    fetch-registry: false
+#    是的检索服务
+  server:
+    enable-self-preservation: false
+#  注册中心的保护机制
